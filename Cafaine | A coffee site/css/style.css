@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --primary-color: #6f4037;
+  --secondary-color: #462822;
+}
+
+.brand-logo {
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-fixed {
+  background: var(--primary-color);
+}
+
+.nav-wrapper {
+  margin: 0 50px;
+}
+
+.slider .indicators .indicator-item.active {
+  background: var(--primary-color);
+}
+
+.slides li img::after {
+  opacity: 0.8;
+}
+
+.parallax-container {
+  min-height: 320px;
+  height: auto;
+}
+
+.more {
+  background: var(--primary-color);
+}
+
+.icon-coffee {
+  color: var(--primary-color);
+}
+
+.card-panel,
+.footer-one {
+  background: var(--primary-color) !important;
+}
+
+.footer-two {
+  background: var(--secondary-color);
+}
+
+.social li i {
+  margin-right: 8px;
+}

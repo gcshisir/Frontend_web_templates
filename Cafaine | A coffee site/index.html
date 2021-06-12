@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/coffee.png" type="image/png" sizes="16x16">
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Cafeine</title>
+  </head>
+  <body>
+    <section class="fnavbar">
+      <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Cafeine</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#" onClick="toggleModal()"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="#" onClick="toggleModal()"><i class="material-icons left">info</i>About Us</a></li>
+            <li><a href="#" onClick="toggleModal()"><i class="material-icons left">hourglass_full</i>Coffee</a></li>
+            <li><a href="#" onClick="toggleModal()"><i class="material-icons left">filter_drama</i>FAQ</a></li>
+            <li><a href="#" onClick="toggleModal()"><i class="material-icons left">call</i>Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onClick="toggleModal()"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="#" onClick="toggleModal()"><i class="material-icons">info</i>About Us</a></li>
+        <li><a href="#" onClick="toggleModal()"><i class="material-icons">hourglass_full</i>Coffee</a></li>
+        <li><a href="#" onClick="toggleModal()"><i class="material-icons">filter_drama</i>FAQ</a></li>
+        <li><a href="#" onClick="toggleModal()"><i class="material-icons">call</i>Contact</a></li>
+      </ul>
+    </section>
+
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="./img/banner1.jpg" alt="image one" />
+            <div class="caption center-align white-text">
+              <h3>Cafeine - Quality cafe</h3>
+              <h5 class="light lighten-3">
+                We serve one of the best coffee around
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="./img/banner2.jpg" alt="image one" />
+            <div class="caption center-align white-text">
+              <h3>Cafeine - Finest cafe</h3>
+              <h5 class="light lighten-3">
+                We serve one of the best coffee around
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="./img/banner3.jpg" alt="image one" />
+            <div class="caption center-align white-text">
+              <h3>Cafeine - Qualite cofe</h3>
+              <h5 class="light lighten-3">
+                We serve one of the best coffee around
+              </h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="descrip">
+      <div class="section white center">
+        <h2 class="header">Cafeine - Ultimate Quality Coffee</h2>
+        <div class="row container center">
+          <div class="col center l8 s12">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ea quas saepe ratione odio alias quo reiciendis possimus, odit nesciunt, eos harum accusamus voluptates voluptatum, quaerat tempore hic minima voluptatem commodi quod! Sed hic debitis at iusto, sint voluptatum ex, recusandae illo eius optio vero nihil dolorem commodi consequatur quas illum ipsum atque rerum sapiente maxime assumenda natus, blanditiis excepturi. Repellendus veniam magnam corrupti eius odio ipsum fugit delectus obcaecati sed aut temporibus maxime, ducimus et modi, voluptas eligendi alias reiciendis perferendis deserunt qui magni! Eos, dicta nostrum, accusantium adipisci officia, nisi animi unde sit dolorum officiis quod magnam laudantium!
+          </div>
+          <div class="col center l4 s12">
+            <img src="./img/coffee.png" alt="Coffee" height="200" width="auto" style="object-fit: contain;">
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="fcards">
+      <div class="row" style="padding-left: 50px;padding-right: 50px;">
+        <div class="col s12 m12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/item2.jpg">
+            </div>
+            <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4 center">MacCoffee<i class="material-icons right">more_vert</i></span>
+            
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">MacCoffee<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/item1.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4 center">Cappuccino<i class="material-icons right">more_vert</i></span>
+            
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Cappuccino<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/item3.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4 center">Espresso<i class="material-icons right">more_vert</i></span>
+            
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Espresso<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="fparallax">
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/banner1.jpg"></div>
+    </div>
+  </section>
+
+  <section class="fabout">
+    <div class="section white center">
+      <div class="row container">
+        <h2 class="header">About Us</h2>
+        <p class="grey-text text-darken-3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam impedit officia nulla culpa excepturi illo aliquid sint, vel quasi ea fugit consequuntur. Neque maiores accusantium animi velit aut facilis culpa earum optio nihil itaque! Ea, unde numquam commodi rem molestias cumque, sunt aut illum nam corrupti cum! Non delectus sequi tempora voluptate sit magnam, nesciunt corrupti dolor aliquam officiis quibusdam quasi distinctio temporibus deserunt praesentium ex mollitia ducimus veritatis impedit quis beatae ipsum placeat. Et consequatur sunt labore. Nam, molestiae hic, esse rerum dolores perspiciatis iure quos ab labore non blanditiis earum placeat voluptas assumenda repellat veniam minus at corrupti.
+        </p>
+        <a href="#" class="btn waves-effect waves-light more">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="fservices">
+    <h2 class="header center">Our Services</h2>
+    <div class="row" style="padding-left: 50px;padding-right: 50px;">
+      <div class="col s12 l4 center" style="padding: 50px;">
+        <i class="large material-icons icon-coffee">local_dining</i>
+        <h5 class="header">Variety of coffee</h5>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo accusamus fugiat voluptatibus nobis consequuntur, libero reiciendis unde repudiandae repellat!</p>
+      </div>
+      <div class="col s12 l4 center" style="padding: 50px;">
+        <i class="large material-icons icon-coffee">watch_later</i>
+        <h5 class="header">Timely Delivery</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, illo corporis? Molestias error animi sapiente sed eaque est reiciendis obcaecati?</p>
+      </div>
+      <div class="col s12 l4 center" style="padding: 50px;">
+        <i class="large material-icons icon-coffee">favorite</i>
+        <h5 class="header">High Quality</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate dolore sit cum sequi, sint veritatis inventore. Rem saepe quaerat veritatis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="freviews">
+    <div class="section white center">
+      <h3 class="header">What Our Customers Say</h3>
+      <div class="myreviews carousel" style="margin-bottom: 30px;">
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal carousel-img">
+                <span class="white-text">
+                  One Review
+                </span>
+                <p class="white-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, saepe? Illo quo rem autem quisquam corporis inventore libero, officia vitae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal carousel-img">
+                <span class="white-text">
+                  One Review
+                </span>
+                <p class="white-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, saepe? Illo quo rem autem quisquam corporis inventore libero, officia vitae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal carousel-img">
+                <span class="white-text">
+                  One Review
+                </span>
+                <p class="white-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, saepe? Illo quo rem autem quisquam corporis inventore libero, officia vitae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal carousel-img">
+                <span class="white-text">
+                  One Review
+                </span>
+                <p class="white-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, saepe? Illo quo rem autem quisquam corporis inventore libero, officia vitae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal carousel-img">
+                <span class="white-text">
+                  One Review
+                </span>
+                <p class="white-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, saepe? Illo quo rem autem quisquam corporis inventore libero, officia vitae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal carousel-img">
+                <span class="white-text">
+                  One Review
+                </span>
+                <p class="white-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, saepe? Illo quo rem autem quisquam corporis inventore libero, officia vitae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="carousel-item">
+          <div class="row">
+            <div class="col s12">
+              <div class="card-panel teal carousel-img">
+                <span class="white-text">
+                  One Review
+                </span>
+                <p class="white-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, saepe? Illo quo rem autem quisquam corporis inventore libero, officia vitae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <footer class="footer-one">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h4 class="white-text">Contact Us</h4>
+            <p class="grey-text"><i class="material-icons left">home</i>New Road, Kathmandu</p>
+            <p class="grey-text"><i class="material-icons left">call</i>+977987654321</p>
+          </div>
+          <div class="col s12 l6">
+            <h4 class="white-text">Social Media</h4>
+            <ul class="social">
+              <li><a href="https://www.facebook.com/" target="_blank" class="grey-text"><i class="fab fa-facebook"></i>Facebook</a></li>
+              <li><a href="https://www.instagram.com/" target="_blank" class="grey-text"><i class="fab fa-instagram"></i>Instagram</a></li>
+              <li><a href="https://www.twitter.com/" target="_blank" class="grey-text"><i class="fab fa-twitter"></i>Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="row footer-two">
+          <div class="col l12 s12">
+            <p class="white-text center">&copy; Cafeine 2021 All Rights Reserved</p>
+          </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- <a href="#" onClick="toggleModal()">Click Me</a> -->
+  
+  <section class="infomodal">
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4 class="info-modal-heading">Link Disabled</h4>
+          <p class="info-modal-content">
+            Sorry! all links are disabled as of now
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
