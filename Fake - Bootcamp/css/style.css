@@ -1,0 +1,81 @@
+:root {
+  --primary-color: #212529;
+  --secondary-color: #0d6efd;
+  --text-highlight-color: #ffc107;
+  --light-text-color: #f8f9fa;
+}
+
+nav {
+  background: var(--primary-color);
+}
+
+#showcase {
+  background: var(--primary-color);
+}
+
+.bg-black{
+  background: var(--primary-color);
+}
+
+.white-text {
+  color: var(--light-text-color);
+}
+
+.black-text {
+  color: var(--primary-color);
+}
+
+.yellow-text {
+  color: var(--text-highlight-color);
+}
+
+.blue {
+  background: var(--secondary-color);
+}
+
+.black {
+  background: var(--primary-color); 
+}
+
+.white {
+  background: var(--light-text-color);
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 100px; */
+  width: auto;
+}
+
+/* #email {
+  border: 1px solid grey;
+  padding-left: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.submit {
+  padding: 2px ;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+} */
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid var(--primary-color);
+  box-shadow: 0 1px 0 0 #000;
+}
+
+#boxes{
+padding-top: 3.5rem;
+padding-bottom: 3.5rem;  
+}
+
+.box{
+  padding-top: 15px;
+  padding-bottom: 2rem;
+}
+
+
+

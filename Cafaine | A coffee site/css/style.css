@@ -3,10 +3,14 @@
 :root {
   --primary-color: #6f4037;
   --secondary-color: #462822;
+
+  /* --primary-color: #18191A; */
+  /* --secondary-color: #18191a; */
+  --dark-theme-bg-color: #000;
 }
 
 .brand-logo {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .nav-fixed {
@@ -49,4 +53,16 @@
 
 .social li i {
   margin-right: 8px;
+}
+
+.service-title{
+  margin: 0;
+  padding: 18px 0;
+}
+
+
+/* for dark mode */
+.dark-theme {
+  background: var(--dark-theme-bg-color) !important;
+  color: #fff;
 }
