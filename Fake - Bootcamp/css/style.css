@@ -5,15 +5,30 @@
   --light-text-color: #f8f9fa;
 }
 
+/* utils */
+.container {
+  width: 80%;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.btn {
+  text-transform: none;
+}
+
 nav {
   background: var(--primary-color);
 }
+
+/* general classes */
 
 #showcase {
   background: var(--primary-color);
 }
 
-.bg-black{
+.bg-black {
   background: var(--primary-color);
 }
 
@@ -34,14 +49,14 @@ nav {
 }
 
 .black {
-  background: var(--primary-color); 
+  background: var(--primary-color);
 }
 
 .white {
   background: var(--light-text-color);
 }
 
-form{
+form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,20 +77,17 @@ form{
   border-bottom-right-radius: 5px;
 } */
 
-.input-field input[type=text]:focus {
+.input-field input[type="text"]:focus {
   border-bottom: 1px solid var(--primary-color);
   box-shadow: 0 1px 0 0 #000;
 }
 
-#boxes{
-padding-top: 3.5rem;
-padding-bottom: 3.5rem;  
+#boxes {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
-.box{
+.box {
   padding-top: 15px;
   padding-bottom: 2rem;
 }
-
-
-
