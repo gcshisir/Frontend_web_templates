@@ -4,55 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Templates</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+      integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <title>Web Templates</title>
-    <style>
-      .card:hover::before {
-        content: "";
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-      }
-    </style>
+    <link rel="stylesheet" href="./scss/main.css" />
   </head>
   <body class="bg-light">
-    <h2 class="text-center mt-5 mb-5">Web Templates</h2>
-    <div class="projects container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card text-center" style="width: auto">
-            <img src="./img/bootcamp.png" class="card-img-top img-fluid w-100 h-100" alt="bootcamp" />
-            <div class="card-body">
-              <a href="./Fake - Bootcamp/" target="_blank" class="btn btn-danger w-100">Visit</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card text-center" style="width:auto">
-            <img src="./img/coffee.png" class="card-img-top" alt="bootcamp" />
-            <div class="card-body px-auto">
-              <a href="./Cafaine | A coffee site/" target="_blank" class="btn btn-danger w-100">Visit</a> 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card text-center" style="width:auto">
-            <img src="./img/hotel.png" class="card-img-top" alt="bootcamp" />
-            <div class="card-body px-auto">
-              <a href="./Hotel-HBT/" target="_blank" class="btn btn-danger w-100">Visit</a> 
-              </p>
-            </div>
-          </div>
+    <h2 class="text-center">Web Templates</h2>
+    <hr />
+    <section id="templates-wrapper" class="container">
+      <div class="img-container">
+        <img src="./img/bootcamp.png" alt="Fake Bootcamp" />
+        <div class="link-wrapper">
+          <a href="./Fake - Bootcamp/" target="_blank"
+            ><i class="fas fa-link"></i
+          ></a>
+          <a
+            href="https://github.com/gc-shisir/Frontend_web_templates/tree/main/Fake%20-%20Bootcamp"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
       </div>
-    </div>
+      <div class="img-container">
+        <img src="./img/coffee.png" alt="Cafaine" />
+        <div class="link-wrapper">
+          <a href="./Cafaine | A coffee site/" target="_blank"
+            ><i class="fas fa-link"></i
+          ></a>
+          <a
+            href="https://github.com/gc-shisir/Frontend_web_templates/tree/main/Cafaine%20%7C%20A%20coffee%20site"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+      <div class="img-container">
+        <img src="./img/hotel.png" alt="Hotel" />
+        <div class="link-wrapper">
+          <a href="./Hotel-HBT/" target="_blank"><i class="fas fa-link"></i></a>
+          <a
+            href="https://github.com/gc-shisir/Frontend_web_templates/tree/main/Hotel-HBT"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+      <div class="img-container">
+        <img src="./img/coffee.png" alt="Cafaine" />
+      </div>
+      <div class="img-container">
+        <img src="./img/hotel.png" alt="Hotel" />
+      </div>
+      <div class="img-container">
+        <img src="./img/coffee.png" alt="Cafaine" />
+      </div>
+      <div class="img-container">
+        <img src="./img/hotel.png" alt="Hotel" />
+      </div>
+    </section>
   </body>
 </html>

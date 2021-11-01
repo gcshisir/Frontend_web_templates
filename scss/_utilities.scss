@@ -1,0 +1,23 @@
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+hr {
+  height: 0;
+  width: 100%;
+  border: 1px solid #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
